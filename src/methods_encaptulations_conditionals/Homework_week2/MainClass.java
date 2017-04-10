@@ -17,8 +17,8 @@ public class MainClass {
         System.out.println("Length of string: "+ uClass.findStringLength(str1) );
         uClass.findCharDistribution(str1);
         uClass.replaceChar( str2 );
-        //uClass.replaceStringChar(str2);
-        countNumberSeries(1,1000);
+        uClass.replaceStringChar(str2);
+        //countNumberSeries(1,1000);
 
 
     }

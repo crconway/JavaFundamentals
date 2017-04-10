@@ -110,27 +110,25 @@ public class UtilitiesClass {
                 }
             }
         }
-      /*  public void replaceStringChar(String str) {
-            strPhrase = str;
+       public void replaceStringChar(String str) {
+
             hdr = "replaceStringChar";
             headerMethod(hdr);
             System.out.println(str);
             System.out.println("^^^^^^^^^Original String^^^^^^^^");
             String matcher = ".*[aeiouAEIOU].*";
 
-            char[] arryChar = strPhrase.toCharArray();
-            for (int i = 0; i < arryChar.length ; i++) {
-
-              if (temp.matches( matcher )){
-                    temp  = "*";
-                    System.out.print(temp);
+           char[] arryChar = str.toCharArray();
+           for (char temp:arryChar) {
+               if (Character.toString( temp ).matches( matcher )){
+                   temp = '*';
+                   System.out.print(temp);
                 } else {
                     System.out.print(temp);
                 }
 
         }
-    }*/
-
+    }
         void headerMethod (String hdr){
         strHeader = hdr;
         System.out.println("\n********************************");
